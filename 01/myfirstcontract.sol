@@ -8,7 +8,7 @@ contract MyFirstContract {
         name = newName;
     }
 
-    function getName() returns (strung) {
+    function getName() returns (string) {
         return name;
     }
 
@@ -19,5 +19,4 @@ contract MyFirstContract {
     function getAge() returns (uint) {
         return age;
     }
-
 }
